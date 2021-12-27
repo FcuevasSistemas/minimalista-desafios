@@ -1,0 +1,8 @@
+A lo anteriormente hecho en los Desafios, se agregaron, las Keywords 
+en todos los HTML de la página, titulo, y descripción de la misma.
+
+Se realizo un mapa, un mixin, un extend y la
+utilizacion de variables @import en Sass.
+
+Se agrego un H1 al index del sitio, asi tambien botones, y modificacion
+del Footer en cada una de las páginas.

@@ -1,0 +1,109 @@
+* {
+    margin: 0%;
+    padding: 0;
+    text-decoration: none;
+    list-style: none;
+    box-sizing: border-box;
+    font-family: 'Righteous', cursive;
+}
+
+/* NAV */
+nav {
+    background-color: #2C2C2C;
+    height: 80px;
+    width: 100%;
+    padding: 0 50px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+
+nav ul {
+    display: flex;
+    justify-content: center;
+}
+
+nav ul li a {
+    color: beige;
+    font-size: 25px;
+    margin: 10px;
+    border-radius: 3px;
+
+}
+
+.enlace {
+    color: beige;
+    font-size: 25px;
+    display: flex;
+    align-items: center;
+}
+
+li a.active, li a:hover {
+    background-color: #CF5252;
+    transition: 1s;
+}
+
+/* INDEX SECTION */
+
+body {
+    height: 100%;
+}
+
+.indexsection {
+    background-image: url("../imagenes/fondo.jpg");
+    background-size: cover;
+    background-position: center center;
+    height: 100vh;
+}
+
+/* FOOTER */
+footer {
+    color: beige;
+    background-color: #CF5252;
+    height: 100px;
+    }
+    .footercontainer {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+    }
+
+.flexrow {
+    display: flex;
+}
+
+.flexrowredes a {
+    display: inline-block;
+    padding-top: 15px;
+    padding-bottom: 15px;
+
+}
+
+.lifooter a {
+    padding: 0 15px;
+    margin-bottom: 16px;
+    color: beige;
+    font-size: 15px;
+    border-radius: 4px;
+}
+
+.lifooter a:hover {
+    background-color: #2C2C2C;
+    transition: .5s;
+}
+
+i {
+    cursor: pointer;
+    font-size: 30px;
+    color: beige;
+}
+
+.footerp {
+    text-align: center;
+}
+
+
+
+
